@@ -21,6 +21,13 @@ while e > 1:
     e=step2
     if phii == 1:
         break    
-    d=step3
-
+d=step3
+ctt = Decimal(0) 
+ctt =pow(t,e) 
+ct = ctt % n 
+    
+dtt = Decimal(0) 
+dtt = pow(ct,d) 
+dt = dtt % n 
+print('n = '+str(n)+' e = '+str(e)+' t = '+str(t)+' d = '+str(d)+' encoded text = '+str(ct)+' decrypted text = '+str(dt))     
     
